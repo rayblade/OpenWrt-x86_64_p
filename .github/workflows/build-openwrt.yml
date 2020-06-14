@@ -17,6 +17,8 @@ on:
       - master
     paths:
       - '.config'
+  watch:
+    types: started
 #lede的源
 #  schedule:
 #    - cron: 0 9 * * 3
